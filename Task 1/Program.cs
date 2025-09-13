@@ -28,6 +28,7 @@
 
                 Console.WriteLine($"Длина окружности равняется: {circumference:F2} \n Площадь круга равняется: {areaCircle:F2} \n {pointInCircle:F2}");
             }
+
             catch (ArgumentException)
             {
                 Console.WriteLine("Радиус не может быть отрицательным.");

@@ -42,6 +42,7 @@ namespace Task_1
             {
                 throw new ArgumentException("Радиус не может быть отрицательным");
             }
+
             else
             {
                 double distanceSquared = Math.Pow(x - x0, 2) + Math.Pow(y - y0, 2);
